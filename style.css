@@ -101,7 +101,7 @@ nav h1 {
     border-top-right-radius: 12px ;
     border-bottom-left-radius: 12px ;
     color: var(--primary-color);
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 footer {
