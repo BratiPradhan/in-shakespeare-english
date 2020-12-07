@@ -56,15 +56,17 @@ nav h1 {
 }
 
 #btn-translate {
-    width: 80%;
-    height: 8vh;
+    width: 90%;
+    height: 10vh;
     font-size: large;
     background: var(--primary-color);
     border-width: 0px;
-    border-radius: 12px;
+    border-radius: 80%;
     color: var(--dark-blue);
     box-sizing: border-box;
+    cursor: pointer;
 }
+
 
 #output-intro {
     margin-top: 2rem;
