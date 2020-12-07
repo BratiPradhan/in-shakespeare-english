@@ -1,38 +1,68 @@
-:root{
-    --primary-color: #F59E0B;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Tangerine:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #78350F;
+    --secondary-color: #FB923C;
 }
 
 body {
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Tangerine', cursive;
     height: 100%;
     background: url(/image/shakespeare-about.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding: 0px;
+    padding: 1rem 0rem;
     border: 0px;
     box-sizing: border-box;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    float: center;
 }
 
-/** links **/
+section h1 {
+    color: var(--primary-color);
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin-top: 6rem;
+    margin-block-end: 1.4rem;
+    text-shadow: 3px 3px 2px var(--secondary-color);
+    font-weight: bolder;
+}
+
+section p {
+    font-family: 'Raleway', sans-serif;
+    margin: 0rem 6rem;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+footer {
+    margin: 6rem 0rem;
+}
+
 .link {
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
     align-items: center;
+    font-size: 28px;
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+    color: var(--secondary-color);
+    font-weight: bolder;
+    letter-spacing: 1.4px;
 }
 
 @media only screen and (min-width : 600px) {
-    body{
+    body {
         background-size: contain;
-        border: 10rem;
-        margin: 10rem;
     }
 }

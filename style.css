@@ -3,7 +3,6 @@
 :root {
     --primary-color: #78350F;
     --secondary-color:#FB923C;
-    --dark-blue: #312E81;
 }
 
 
@@ -11,7 +10,7 @@ body {
     font-family: 'Raleway', sans-serif;
 font-family: 'Tangerine', cursive;
     height: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(/image/shakespeare-bg.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(/image/shakespeare-bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -110,19 +109,12 @@ footer {
     margin: 2rem;
 }
 
-/** links **/
 .link {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
     align-items: center;
 }
-
-/* .link-primary {
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
-} */
 
 .link-secondary {
     color: var(--secondary-color);
